@@ -1,0 +1,87 @@
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.gridView{
+    float: left;
+    margin-left:2%;
+    width: 65%;
+  }
+
+.item {
+  background-color: #E5E5E5;
+    float: left;
+    width: 42%;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+.itemImage{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.productName{
+  float: left;
+  color: #623EB9;
+font-weight: bold;
+width: 80%;
+}
+
+.price{
+  float: right;
+  color: black;
+}
+
+.itemDetails{
+color: #8D8B92;
+margin: 10px 0 10px 0;
+ }
+
+.orderForm{
+  background-color: white;
+  width: 25%;
+  border-style: solid;
+  border-color: #623EB9;
+  border-radius: 15px;
+  float: right;
+  padding: 40px;
+  margin: 20px 2% 20px 0;
+}
+.text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+}
+input{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.totalCost{
+  margin: 30px 0 60px 0;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.orderButton {
+  background-color: #623EB9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
