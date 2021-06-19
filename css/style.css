@@ -1,0 +1,65 @@
+
+
+
+nav .container-fluid{
+  height: 80px;
+  background-color: #623EB9;
+  color: white;
+}
+
+
+nav p{
+  margin-left: 30px;
+}
+
+nav .nav-icons{
+  margin-left: 100px;
+}
+
+.front-page h1, .front-page i{
+  color: #623EB9 ;
+}
+
+/* .front-page{
+  height: 90vh;
+} */
+
+.front-page h1{
+  font-size: 48px;
+  font-weight: 700;
+  width: 90%;
+}
+
+.catagories .catagory{
+  width: 100%;
+  height: 250px;
+  background-color: #E5E5E5;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.catagories .catagory .text{
+  margin-left: 20px;
+}
+
+.catagories .catagory img{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 45%;
+}
+
+.catagories .catagory h3{
+  padding-top: 30px;
+  color: #623EB9;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.catagories .catagory p{
+  color: #8D8B92;
+  font-weight: 700;
+  margin-top: 30px;
+  width: 90%;
+}
