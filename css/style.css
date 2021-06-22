@@ -1,6 +1,7 @@
 
 
 
+
 nav .container-fluid{
   height: 80px;
   background-color: #623EB9;
@@ -51,7 +52,7 @@ nav img{
   position: absolute;
   bottom: 5%;
   right: 5%;
-  width: 45%;
+  max-width: 40%;
 }
 
 .catagories .catagory h3{
@@ -128,4 +129,42 @@ nav img{
   color: #8D8B92;
   font-weight: 700;
   margin: 15px 25px;
+}
+
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;     
+   font-weight: 500;    
+   margin-left: auto;
+   margin-right: auto;   
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+@media only screen and (max-width: 1000px) {
+  .catagories .catagory img{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    max-width: 30%;
+  }
 }

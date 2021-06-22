@@ -6,7 +6,7 @@ function redirect(source){
 
 for(let i = 0;i<catagories.length;i++){
 
-    catagories[i].addEventListener('click',function(e){
-        redirect(e.target.id);
+    catagories[i].addEventListener('click',function(){
+        redirect(catagories[i].id);
     });
 }
