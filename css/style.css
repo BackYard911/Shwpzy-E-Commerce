@@ -16,6 +16,10 @@ nav .nav-icons{
   margin-left: 100px;
 }
 
+nav img{
+  margin-top: -5px;
+}
+
 .front-page h1, .front-page i{
   color: #623EB9 ;
 }
