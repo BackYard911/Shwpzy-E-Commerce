@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./js/validateAuth.js"></script>
+  </head>
+  <body>
     <nav>
-        <div class="container-fluid">
-            <div class="container">
-            <div class="d-flex justify-content-between pt-3">
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" class="img-fluid w-50" alt=""></a>
-                    
-                </div>
-                <div class="nav-items d-flex justify-content-around pt-3">
-                    <p>Home</p>
-                    <p>Catagories</p>
-                    <p>About</p>
-                    <div class="nav-icons">
-                        <i class="fas fa-shopping-cart pt-1"></i>
-                        <i class="fas fa-user pt-1 ml-3"></i>
-                    </div>                                    
-                </div>
-                <button class="btn btn-outline-light" id="logoutBtn" type="submit">Logout</button>
-
+      <div class="container-fluid">
+        <div class="container">
+          <div class="d-flex justify-content-between pt-3">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="images/logo.png" class="img-fluid w-50" alt=""
+              /></a>
             </div>
+            <div class="nav-items d-flex justify-content-around pt-3">
+              <p>Home</p>
+              <p>Catagories</p>
+              <p>About</p>
+              <div class="nav-icons">
+                <a href="shoppingCart.html" class="text-white"
+                  ><i class="fas fa-shopping-cart pt-1"></i
+                ></a>
+                <a href="ProfileScreen.html" class="text-white"
+                  ><i class="fas fa-user pt-1 ml-3"></i
+                ></a>
+              </div>
+            </div>
+            <button class="btn btn-outline-light" id="logoutBtn" type="submit">
+              Logout
+            </button>
           </div>
         </div>
       </div>
     </nav>
     <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">Order ID</th>
-            <th scope="col">Date</th>
-            <th scope="col">Total Cost</th>
-          </tr>
-        </thead>
-        <tbody class='tableBody'>
-        </tbody>
-      </table>
-      <script src="js/jquery-3.5.1.slim.min.js"></script>
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Order ID</th>
+          <th scope="col">Date</th>
+          <th scope="col">Total Cost</th>
+        </tr>
+      </thead>
+      <tbody class="tableBody"></tbody>
+    </table>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/profile.js"></script>
-</body>
+  </body>
 </html>

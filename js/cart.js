@@ -20,7 +20,7 @@ const BASE_URL = "http://localhost:8000/api/products/";
       // productElm.className = "row";
       // productElm.setAttribute("product-id", product.id);
       productElm.innerHTML = `
-          <div class="item" product-id="${product.id} col-sm-4">
+          <div class="item" product-id="${product.id}" col-sm-4">
           <img src=${product.product_images[0].url} class="itemImage" />
           <p class="productName">${product.title}</p>
           <p class="itemDetails">
@@ -73,6 +73,7 @@ orderBtn.addEventListener("click", async (e) => {
     body: JSON.stringify(order),
   });
   const result = await response.json();
+  console.log(result);
   if (result.message != "failed") {
     alert("Order has been placed");
     localStorage.removeItem("cart");
