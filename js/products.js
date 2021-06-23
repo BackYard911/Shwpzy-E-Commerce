@@ -26,11 +26,11 @@ const GET_PRODUCTS =
     productsElms += `
         <div class="col-md-4">
                     <div class="product" product-id=${product.id}>
-                        <div class="py-4">
+                        <div class="py-4 img-container">
 
                             <img src="${product.product_images[0].url}" class="img-fluid" alt="">
                         </div>
-                        <div class="d-flex justify-content-around">
+                        <div class="d-flex justify-content-around px-4">
                             <h3>${product.title}</h3>
                             <div class="product-price d-flex justify-content-center">
                                 <h5>${product.price}</h5>
