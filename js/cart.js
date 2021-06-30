@@ -2,7 +2,7 @@ const cartProductsContainer = document.querySelector(".products-container");
 const cartProducts = JSON.parse(localStorage.getItem("cart"));
 const loggedUser = JSON.parse(localStorage.getItem("logged_user"));
 
-const BASE_URL = "http://localhost:8000/api/products/";
+const BASE_URL = "http://powerful-crag-63009.herokuapp.com/api/products/";
 (async () => {
   if (cartProducts) {
     cartProducts.forEach(async (pId) => {
@@ -61,7 +61,7 @@ orderBtn.addEventListener("click", async (e) => {
     total,
     order_products,
   };
-  const POST_ORDER = "http://localhost:8000/api/orders";
+  const POST_ORDER = "http://powerful-crag-63009.herokuapp.com/api/orders";
   console.log(order);
   const response = await fetch(POST_ORDER, {
     headers: {

@@ -3,7 +3,7 @@ const categoryId = parseInt(localStorage.getItem("catogoryId"));
 const loggedUser = JSON.parse(localStorage.getItem("logged_user"));
 const productsContainer = document.querySelector('.products > .container > .row');
 const GET_PRODUCTS =
-  "http://localhost:8000/api/products/filterByCategory/" + categoryId;
+  "http://powerful-crag-63009.herokuapp.com/api/products/filterByCategory/" + categoryId;
 
 
 

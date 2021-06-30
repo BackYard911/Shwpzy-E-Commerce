@@ -1,5 +1,5 @@
 const checkIsLogged = async () => {
-  const BASE_URL = "http://localhost:8000/api/validate";
+  const BASE_URL = "http://powerful-crag-63009.herokuapp.com/api/validate";
   const loggedUser = JSON.parse(localStorage.getItem("logged_user"));
 
   if (!loggedUser) {

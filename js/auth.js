@@ -17,7 +17,7 @@ const signUpFormErrorElm = signUpFormElm.querySelector(".signUpForm__error");
 const innerContainerElm = document.querySelector(".inner-container");
 // globals
 // const users = [];
-const BASE_URL = "http://localhost:8000/api/";
+const BASE_URL = "http://powerful-crag-63009.herokuapp.com/api/";
 
 async function authenticateUser(user) {
   const response = await fetch(BASE_URL + "login", {
