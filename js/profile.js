@@ -1,7 +1,7 @@
 const logoutElm = document.querySelector("#logoutBtn");
 const loggedUser = JSON.parse(localStorage.getItem("logged_user"));
 const ordersTable = document.querySelector(".table > .tableBody");
-const BASE_URL = "http://powerful-crag-63009.herokuapp.com/api/";
+const BASE_URL = "https://powerful-crag-63009.herokuapp.com/api/";
 
 (async () => {
   /// get orders
